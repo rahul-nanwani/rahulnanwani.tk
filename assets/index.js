@@ -1,0 +1,1 @@
+var i = 0; var txt = 'Rahul Nanwani';function typeWriter() { if (i < txt.length) { document.getElementById("title").innerHTML += txt.charAt(i); i++; setTimeout(typeWriter, 80);}}ScrollReveal({ reset: true }); typeWriter(); ScrollReveal().reveal('#about', { delay: 230 });ScrollReveal().reveal('#work', { delay: 230 });
